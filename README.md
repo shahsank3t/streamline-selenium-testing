@@ -30,7 +30,7 @@ Install TestNG using any one of the following method
 7. Click Next again on the succeeding dialog box until it prompts you to Restart the Eclipse.
 
 ## Clone Selenium Code ##
-git clone [https://garukhatav@bitbucket.org/mastiapps/streamline_automation.git]
+git clone [git@github.com:shahsank3t/streamline-selenium-testing.git]
 
 ## Modify automation.properties file ##
 Open automation.properties file through eclipse and update belwo properties
