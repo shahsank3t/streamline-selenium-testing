@@ -36,28 +36,43 @@ git clone [git@github.com:shahsank3t/streamline-selenium-testing.git]
 Open automation.properties file through eclipse and update belwo properties
 ### Driver and other properties ###
 host.url [Enter streamline host and port number]
+
 driver.chrome.path [Enter chrome driver path]
 ### Service Pool properties ###
 spool.valid.url.first & spool.valid.url.second [Enter two different valid ambari URLs in proper format]
+
 ambari.valid.first.cluster.name [Enter ambari cluster name of first url]
+
 spool.invalid.url [Enter invalid cluster name url]
+
 spool.valid.username [Enter valid username]
+
 spool.valid.password [Enter valid password]
+
 spool.invalid.username [Enter valid username]
+
 spool.invalid.password [Enter invalid password]
 ### Custom Processor properties ###
 custom.processor.valid.jar.first.path [Enter valid first jarfile path]
+
 custom.processor.valid.jar.second.path [Enter valid second jarfile path]
+
 custom.processor.valid.classname [Enter valid classname of the first jarfile]
+
 custom.processor.invalid.jar.path [Enter invalid jarfile path]
+
 custom.processor.invalid.classname [Enter invalid or random classname path]
 ### My Application properties ###
 myapplication.valid.configured.json.path [Enter valid json file path having configured components]
+
 myapplication.invalid.json.path [Enter invalid json file path]
+
 myapplication.blank.json.path [Enter blank json file path]
 ### Model Registry properties ###
 model.valid.xml.path [Enter valid xml file path]
+
 model.invalid.xml.path [Enter invalid xml file path]
+
 model.blank.xml.path [Enter blank xml file path]
 
 ## Run Test Suite ##
