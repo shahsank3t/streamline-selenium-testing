@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StreamLine Test Suite " >
+ <test name="Initial Test">
+    <classes>
+      <class name="com.fsi.test.InitialTest"/>
+    </classes>
+ </test>
+  <test name="ServicePool Test">
+    <classes>
+      <class name="com.fsi.test.ServicePoolTest"/>
+    </classes>
+ </test>
+ <test name="Environments Test">
+    <classes>
+      <class name="com.fsi.test.EnvironmentsTest"/>
+    </classes>
+ </test>
+ <test name="Custom Processor Test">
+    <classes>
+      <class name="com.fsi.test.CustomProcessorTest"/>
+    </classes>
+ </test>
+ <test name="My Applications Test">
+    <classes>
+      <class name="com.fsi.test.MyapplicationsTest"/>
+    </classes>
+ </test>
+ <test name="Model Registry Test">
+    <classes>
+      <class name="com.fsi.test.ModelRegistryTest"/>
+    </classes>
+ </test>
+</suite>
