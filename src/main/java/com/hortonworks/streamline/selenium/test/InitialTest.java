@@ -534,7 +534,8 @@ public class InitialTest extends BaseTest{
                 try
                 {
                         model.modelRegistry.click();
-                        wait.until(ExpectedConditions.visibilityOf(model.deleteIcon));
+                        wait.until(ExpectedConditions.visibilityOf(model.createBtn));
+                        Thread.sleep(2000);
                         List <WebElement> modelcount = driver.findElements(By.xpath("//button[@class='btn-danger']"));
                         if (modelcount.size() == 0){
                                 LOG.info("No model registry available");}
