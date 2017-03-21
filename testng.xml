@@ -2,32 +2,32 @@
 <suite name="StreamLine Test Suite " >
  <test name="Initial Test">
     <classes>
-      <class name="com.fsi.test.InitialTest"/>
+      <class name="com.hortonworks.streamline.selenium.test.InitialTest"/>
     </classes>
  </test>
   <test name="ServicePool Test">
     <classes>
-      <class name="com.fsi.test.ServicePoolTest"/>
+      <class name="com.hortonworks.streamline.selenium.test.ServicePoolTest"/>
     </classes>
  </test>
  <test name="Environments Test">
     <classes>
-      <class name="com.fsi.test.EnvironmentsTest"/>
+      <class name="com.hortonworks.streamline.selenium.test.EnvironmentsTest"/>
     </classes>
  </test>
  <test name="Custom Processor Test">
     <classes>
-      <class name="com.fsi.test.CustomProcessorTest"/>
+      <class name="com.hortonworks.streamline.selenium.test.CustomProcessorTest"/>
     </classes>
  </test>
  <test name="My Applications Test">
     <classes>
-      <class name="com.fsi.test.MyapplicationsTest"/>
+      <class name="com.hortonworks.streamline.selenium.test.MyapplicationsTest"/>
     </classes>
  </test>
  <test name="Model Registry Test">
     <classes>
-      <class name="com.fsi.test.ModelRegistryTest"/>
+      <class name="com.hortonworks.streamline.selenium.test.ModelRegistryTest"/>
     </classes>
  </test>
 </suite>
